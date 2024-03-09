@@ -45,12 +45,12 @@ jobs:
       with:
         depth: 1
         branch: 'main'
-        owner: 'techtorialdevops'
-        repository: 'Grafana'
+        owner: 'marina933'
+        repository: 'grafana'
     
     - name: Access cloned repo
       run: |
-         cd Grafana
+         cd grafana
          ls -la
 
     - name: Deploy Helm Chart
