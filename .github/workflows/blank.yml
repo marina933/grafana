@@ -56,4 +56,4 @@ jobs:
     - name: Deploy Helm Chart
       run: |
         helm repo add grafana https://grafana.github.io/helm-charts
-        helm install my-grafana grafana/grafana -f values.yaml -f  -n grafana
+        helm install  -f values.yaml grafana grafana/grafana   -n grafana
